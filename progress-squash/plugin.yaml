@@ -1,0 +1,7 @@
+name: progress-squash
+version: "1.0.0"
+description: "Collapses carriage-return progress bars (tqdm, git and similar) in terminal output to the frame a terminal would show, before Hermes truncates it for the model. One transform_terminal_output hook; pure string processing, no tools, network, files or subprocesses."
+author: pierrenode
+requires_hermes: ">=0.21"
+provides_hooks:
+  - transform_terminal_output

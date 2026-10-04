@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.png binary
+# Captured terminal output: keep the bare \r bytes exactly as Hermes saw them.
+tests/fixtures/*.txt -text
